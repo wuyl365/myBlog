@@ -97,9 +97,16 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# hexo-admin authentification
+admin:
+  username: wuyl365
+  password_hash: $2a$10$/fvvWXjfQJrWJUfaWICvbucPOhtPImQ63jUC3//KTvB7eFLM7rA.u
+  secret: my super secret phrase
+
